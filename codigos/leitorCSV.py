@@ -1,11 +1,12 @@
 import csv
 import pandas as pd
 from datetime import datetime
+import math
 
-def leitor():
+def leitor(nome):
 
-    input_file = 'csvs\saida.csv'
-    output_file = 'csvs\dados_final.csv'
+    input_file = 'csvs/saida.csv'
+    output_file = 'csvs/' + nome + '.csv'
 
     # Abrir o arquivo CSV original e o novo arquivo para escrita
     with open(input_file, 'r', newline='', encoding='utf-8') as csvfile, open(output_file, 'w', newline='', encoding='utf-8') as csvoutput:
@@ -20,7 +21,7 @@ def leitor():
         for row in reader:
             # Se a coluna 'Descrição' não contém 'Saldo do dia', escreva a linha no novo arquivo
             if len(row) > 0:
-                if 'Saldo do dia' not in row[1]:
+                if 'Saldo do dia' not in row[1] and 'Extrato' not in row[1]:
                     writer.writerow(row)
 
     df = pd.read_csv(output_file)
@@ -32,7 +33,12 @@ def leitor():
     date2 = datetime.strptime(fim, '%d/%m/%Y')
 
     # Calcular a diferença em meses
-    meses = (date2.year - date1.year) * 12 + date2.month - date1.month
+    dias = (date2.year - date1.year) * 12 + (date2.month - date1.month) * 30 + date2.day - date1.day
+
+    meses = int(math.ceil(dias / 30))
+    
+    if(meses == 0):
+        meses = 1
 
     df_entradas = df[df['Valor'] > 0]
     df_saidas = df[df['Valor'] < 0]
