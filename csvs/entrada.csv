@@ -1,5 +1,7 @@
-Data,Descrição,Valor
+"Data,Descricao,Valor"
+"```csv
 27/03/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-15.81
+27/03/2024,Saldo do dia,500.97
 28/03/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-17.83
 28/03/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
 28/03/2024,Cartão da Conta - Uber* Pending Www.uber.com.br,-15.99
@@ -11,8 +13,13 @@ Data,Descrição,Valor
 28/03/2024,Pix recebido - Adilson Lino Pereira,40.00
 28/03/2024,Cartão da Conta - 99 *99* Sao Paulo Br,-16.00
 28/03/2024,Pix enviado - Xeque Mate Print,-409.75
+28/03/2024,Saldo do dia,467.40
 29/03/2024,Vendas - Plano de Recebimento,374.01
+29/03/2024,Saldo do dia,841.41
 31/03/2024,Cartão da Conta - Uber* Pending Www.uber.com.br,-4.76
+31/03/2024,Saldo do dia,836.65
+```"
+"```csv
 01/04/2024,Pix enviado - Tecno Sign Adesivos Ltda,-130.65
 01/04/2024,Pix enviado - Grafica Scan,-26.60
 02/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
@@ -35,6 +42,8 @@ Data,Descrição,Valor
 09/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
 09/04/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-398.85
 09/04/2024,Pix enviado - Centro Da Sublimacao Comercio De Br,-17.00
+```"
+"```csv
 09/04/2024,QR Code Pix enviado - Centro Da Sublimacao Comercio De Br,-72.20
 09/04/2024,Pix enviado - Telasilk Comercio De Materiai,-202.25
 10/04/2024,Pix recebido - Bianca Costa Dos Reis,100.00
@@ -59,31 +68,35 @@ Data,Descrição,Valor
 13/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-50.00
 13/04/2024,Pix recebido - Requinte Pallace Ltda,600.00
 15/04/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-14.99
-15/04/2024,Pix recebido - Rafaella Santos Damaro,110.00
-15/04/2024,Pix enviado - Printta Digital Eireli Me,-155.52
-15/04/2024,Pix recebido - Mauro Leandro Junior,195.00
-15/04/2024,QR Code Pix enviado - Impra Industria Grafica Eireli - Impra Grafica,-564.85
-16/04/2024,Pix recebido - Job Colors Comercio De Tintas Ltda,340.00
-16/04/2024,Cartão da Conta - Printed Comunicao Visual Guarulhos Br,-1.00
-16/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-25.00
-16/04/2024,Pix enviado - Hcolor Comunicacao Visual E Grafica Ltda,-250.00
-16/04/2024,Cartão da Conta - 99 *99* Sao Paulo Br,-5.00
-16/04/2024,QR Code Pix enviado - Yapay Pagamentos Online Ltda,-18.47
-16/04/2024,Pix enviado - Mario Sergio Do Nascimento,-29.50
-16/04/2024,Pix recebido - Bianca Costa Dos Reis,96.26
-17/04/2024,Pix enviado - Kelme De Oliveira Santos Campanha,-100.00
-17/04/2024,Pix recebido - Falcao Comercio E Servicos Ltda,455.00
-17/04/2024,Pix recebido - Rafaella Santos Damaro,145.00
-17/04/2024,QR Code Pix enviado - Yapay Pagamentos Online Ltda,-15.65
-17/04/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-163.15
-17/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
-17/04/2024,Pix enviado - Telasilk Comercio De Materiai,-55.00
-17/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
-17/04/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
-18/04/2024,Pix recebido - Rodrigo Martins Dos Santos,150.00
-18/04/2024,Pix enviado - Xeque Mate Print,-404.96
-18/04/2024,Pix recebido - Sintia Santos Carvalho,9.00
-18/04/2024,QR Code Pix enviado - Edp Sao Paulo Distribuicao De Energia,-163.45
+```"
+"```csv
+15/04/2024,""Pix recebido - Rafaella Santos Damaro"",110.00
+15/04/2024,""Pix enviado - Printta Digital Eireli Me"",-155.52
+15/04/2024,""Pix recebido - Mauro Leandro Junior"",195.00
+15/04/2024,""QR Code Pix enviado - Impra Industria Grafica Eireli - Impra Grafica"",-564.85
+16/04/2024,""Pix recebido - Job Colors Comercio De Tintas Ltda"",340.00
+16/04/2024,""Cartão da Conta - Printed Comunicao Visual Guarulhos Br"",-1.00
+16/04/2024,""Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br"",-25.00
+16/04/2024,""Pix enviado - Hcolor Comunicacao Visual E Grafica Ltda"",-250.00
+16/04/2024,""Cartão da Conta - 99 *99* Sao Paulo Br"",-5.00
+16/04/2024,""QR Code Pix enviado - Yapay Pagamentos Online Ltda"",-18.47
+16/04/2024,""Pix enviado - Mario Sergio Do Nascimento"",-29.50
+16/04/2024,""Pix recebido - Bianca Costa Dos Reis"",96.26
+17/04/2024,""Pix enviado - Kelme De Oliveira Santos Campanha"",-100.00
+17/04/2024,""Pix recebido - Falcao Comercio E Servicos Ltda"",455.00
+17/04/2024,""Pix recebido - Rafaella Santos Damaro"",145.00
+17/04/2024,""QR Code Pix enviado - Yapay Pagamentos Online Ltda"",-15.65
+17/04/2024,""Pix enviado - Gabrielli Tiemy Hirokawa Mira"",-163.15
+17/04/2024,""Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br"",-15.00
+17/04/2024,""Pix enviado - Telasilk Comercio De Materiai"",-55.00
+17/04/2024,""Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br"",-15.00
+17/04/2024,""Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br"",-15.00
+18/04/2024,""Pix recebido - Rodrigo Martins Dos Santos"",150.00
+18/04/2024,""Pix enviado - Xeque Mate Print"",-404.96
+18/04/2024,""Pix recebido - Sintia Santos Carvalho"",9.00
+18/04/2024,""QR Code Pix enviado - Edp Sao Paulo Distribuicao De Energia"",-163.45
+```"
+"```csv
 19/04/2024,Pix recebido - Sintia Santos Carvalho,9.00
 20/04/2024,QR Code Pix enviado - Ministerio Da Economia,-76.60
 22/04/2024,Pix enviado - Telasilk Comercio De Materiai,-33.81
@@ -107,6 +120,8 @@ Data,Descrição,Valor
 25/04/2024,Pix enviado - Grupo Criarte,-39.91
 25/04/2024,Pix enviado - Grupo Criarte,-86.91
 25/04/2024,Pix recebido - Aline Aparecida Cabo Moreira,27.00
+```"
+"```csv
 25/04/2024,Pix recebido - Bruno Henrique Generoso,20.00
 25/04/2024,Devolução Pix recebida - Lojas Renner S.a.,59.90
 25/04/2024,Rendimento da conta - Rendimento líquido sobre dinheiro em conta,0.74
@@ -131,6 +146,8 @@ Data,Descrição,Valor
 29/04/2024,Pix enviado - 52188771 Joao Vitor Soares Da Silva,-250.00
 29/04/2024,Pix recebido - Alcione Rios De Matos,100.00
 30/04/2024,Pix recebido - Jefferson Paulino Da Silva,60.00
+```"
+"```csv
 02/05/2024,QR Code Pix enviado - Yapay Pagamentos Online Ltda,-22.27
 02/05/2024,Pix recebido - Felipe Abdiel Vila Nova De Souza 43467578802,1004.00
 02/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-1.99
@@ -156,6 +173,8 @@ Data,Descrição,Valor
 03/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-208.13
 03/05/2024,Cartão da Conta - Japan Sports*windbanner24guarulhos Br,-159.00
 05/05/2024,Vendas - Disponivel BOLETO,526.01
+```"
+"```csv
 06/05/2024,Pix enviado - Grafica Scan,-80.75
 06/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-191.98
 06/05/2024,Pix recebido - Forte Protecoes,200.00
@@ -181,6 +200,8 @@ Data,Descrição,Valor
 09/05/2024,Pix enviado - Grupo Criarte,-17.21
 09/05/2024,Vendas - Disponivel PIX,39.24
 09/05/2024,Pix recebido - Ana Celia Alves Da Silva,85.00
+```"
+"```csv
 10/05/2024,Pix recebido - Ferro E Aco Primavera,55.00
 10/05/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
 10/05/2024,Cartão da Conta - Lalamove Tecnologia Brasisao Paulo Br,-15.00
@@ -204,6 +225,8 @@ Data,Descrição,Valor
 14/05/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-31.55
 15/05/2024,Cartão da Conta - Japan Sports*fabricatextiguarulhos Br,-149.00
 15/05/2024,Pix enviado - Comercial E Copiadora Lapel Ltda,-37.10
+```"
+"```csv
 15/05/2024,Pix enviado - Grupo Criarte,-14.62
 15/05/2024,Pix enviado - Gabrielli Tiemy Hirokawa Mira,-30.00
 15/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-243.98
@@ -229,7 +252,8 @@ Data,Descrição,Valor
 17/05/2024,Pix recebido - Edvandro Alcides Dos Santos 34243719802,80.00
 17/05/2024,Cartão da Conta - Japan Sports*fabricatextiguarulhos Br,-118.00
 20/05/2024,Pix enviado - Kelme De Oliveira Santos Campanha,-200.00
-20/05/2024,Pix recebido - Farol Novo Comercio De Auto Pecas Ltda,100.00
+```"
+"20/05/2024,Pix recebido - Farol Novo Comercio De Auto Pecas Ltda,100.00
 20/05/2024,QR Code Pix enviado - Ideal Commerce Ltda,-310.88
 20/05/2024,Pix recebido - Falcao Comercio E Servicos Ltda,260.00
 20/05/2024,Pix enviado - Xeque Mate Print,-43.37
@@ -253,7 +277,8 @@ Data,Descrição,Valor
 23/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-104.99
 23/05/2024,QR Code Pix enviado - Wbl Grafica E Editora Ltda,-40.99
 23/05/2024,QR Code Pix enviado - Yapay Pagamentos Online Ltda,-68.36
-23/05/2024,Rendimento da conta - Rendimento líquido sobre dinheiro em conta,0.22
+23/05/2024,Rendimento da conta - Rendimento líquido sobre dinheiro em conta,0.22"
+"```csv
 24/05/2024,Pix recebido - Maria Cristina Odoni,20.00
 24/05/2024,Cartão da Conta - Japan Sports*fabricatextiguarulhos Br,-129.00
 24/05/2024,Pix recebido - Felipe Abdiel Vila Nova De Souza 43467578802,600.00
@@ -269,3 +294,4 @@ Data,Descrição,Valor
 27/05/2024,Pix enviado - Grupo Criarte,-23.20
 27/05/2024,Pix recebido - Welberson Gomes De Lima 43312544882,45.00
 27/05/2024,Pix enviado - Grupo Criarte,-124.13
+```"
