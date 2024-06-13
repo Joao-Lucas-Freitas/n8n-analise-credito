@@ -21,7 +21,7 @@ def limpar():
             # Processar as linhas do CSV
             for row in reader:
                 # Limpar conteúdo de cada célula da linha
-                cleaned_row = [cell.replace('```csv\n', '').replace('\n```', '').replace('`\n', '').replace('`', '').replace('"', '').replace(' \n', '') 
+                cleaned_row = [cell.replace('```csv\n', '').replace('\n```', '').replace('`', '').replace('"', '') 
                             for cell in row]
                 writer.writerow(cleaned_row)
 
