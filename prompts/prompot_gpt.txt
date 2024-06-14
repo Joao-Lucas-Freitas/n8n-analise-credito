@@ -11,13 +11,14 @@ Instruções:
      - Analise corretamente o sinal do valor (positivo ou negativo).
 
 4. Cada linha deve conter exatamente duas vírgulas, garantindo que sejam exatamente três campos (Data, Descrição e Valor).
-5. Ignore qualquer outra informação que não seja uma transação (não confunda com saldo ou cabeçalho).
-6. Certifique-se de que todas as transações estejam mapeadas corretamente no csv.
+5. Ignore qualquer outra informação que não seja uma transação (não confunda com saldo ou cabeçalho, ou id, que podem estar na linha, remova todas essas e deixe só os três campos).
+6. Certifique-se de que todas as transações estejam mapeadas corretamente no csv, conte o número de vírgulas na linha e verifique se são duas mesmo antes de passar pra próxima.
 7. Mantenha a ordem das transações original.
+8. É essencial analisar todas as linhas da entrada para mapear todas as transações, não posso perder nenhuma transação pois esse dado é de extrema importância. 
 
 Exemplo:
 15/04/2024,Compra padaria,25.50
 15/04/2024,Pagamento aluguel,-1500.00
 15/04/2024,Recebimento salário,2000.00
 
-Sua única resposta deve ser o texto formatado em csv, com exatamente três campos por linha e duas vírgulas por linha, sem nenhuma outra informação adicional.
+Sua única resposta deve ser o texto formatado em csv, com exatamente três campos por linha e duas vírgulas por linha, sem nenhuma outra informação adicional. Nem comentário nem observação.

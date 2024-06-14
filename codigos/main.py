@@ -4,7 +4,7 @@ from limpar_csv import limpar
 
 def main():
     #pdfs = ['extratos/Icaro Moreira Pazini.pdf', 'extratos/brooklyn role play.pdf', 'extratos/Maria Anthonia Gomes Mota.pdf']
-    pdfs = ['extratos/Comprovante_3_-_Maria_Anthonia_Gomes_Mota.pdf']
+    pdfs = ['extratos/Maria.pdf']
     for pdf in pdfs:
         nome = pdf.replace('extratos/', '').replace('.pdf', '') 
         print(pdf, nome)

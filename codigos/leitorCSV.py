@@ -6,7 +6,7 @@ import math
 def leitor(nome):
 
     input_file = 'csvs/saida.csv'
-    output_file = 'csvs/' + nome + '.csv'
+    output_file = 'csvs/' + 'dados' + '.csv'
 
     # Abrir o arquivo CSV original e o novo arquivo para escrita
     with open(input_file, 'r', newline='', encoding='utf-8') as csvfile, open(output_file, 'w', newline='', encoding='utf-8') as csvoutput:
