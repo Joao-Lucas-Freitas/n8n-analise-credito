@@ -57,7 +57,9 @@ def leitor(nome):
     print("\nSaldo do período:", entrou + saiu)
     print()
 
-    # transacoes_por_data = df.groupby('Data').size().reset_index(name='Número de Transações')
-    # print(transacoes_por_data)
+#     transacoes_por_data = df.groupby('Data').size().reset_index(name='Número de Transações')
+#     print(transacoes_por_data)
 
-    # print(transacoes_por_data['Número de Transações'].sum())
+#     print(transacoes_por_data['Número de Transações'].sum())
+
+# leitor('a')

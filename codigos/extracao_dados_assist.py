@@ -1,26 +1,19 @@
 from openai import OpenAI
-from PyPDF2 import PdfReader
+import pdfplumber
 import time
 import csv
 
 def assistente(pdf_path):
 
     def extract_pages_to_strings(pdf_path):
-        # Abre o arquivo PDF
-        with open(pdf_path, "rb") as file:
-            reader = PdfReader(file)
-            num_pages = len(reader.pages)
-
-            # Lista para armazenar o texto de cada página
-            pages = []
-
-            # Loop para extrair o texto de cada página
-            for page_num in range(num_pages):
-                page = reader.pages[page_num]
-                page_text = page.extract_text()
-                pages.append(page_text)
-
-            return pages
+        pages = []
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                for page in pdf.pages:
+                    pages.append(page.extract_text())
+        except Exception as e:
+            print(f"An error occurred: {e}")
+        return pages
         
     def novo_csv(path):
         with open(path, mode='w', newline='', encoding='utf-8'):
@@ -37,10 +30,12 @@ def assistente(pdf_path):
 
     pages = extract_pages_to_strings(pdf_path)
 
-    # i = 0
+    
+
+    i = 0
     for page in pages:
-        # i+=1
-        # print("Pagina:", i)
+        i+=1
+        print("Pagina:", i)
         # print(page)
 
         thread = client.beta.threads.create(

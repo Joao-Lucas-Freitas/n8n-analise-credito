@@ -42,3 +42,5 @@ def limpar():
     limpar_aspas(middle_file_path, output_file_path)
 
     print(f"O arquivo CSV limpo foi salvo em: {output_file_path}")
+
+# limpar()
