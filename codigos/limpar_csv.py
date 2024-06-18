@@ -43,4 +43,4 @@ def limpar():
 
     print(f"O arquivo CSV limpo foi salvo em: {output_file_path}")
 
-# limpar()
+#limpar()
