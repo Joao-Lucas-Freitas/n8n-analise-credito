@@ -30,10 +30,11 @@ def assistente(pdf_path):
 
     pages = extract_pages_to_strings(pdf_path)
 
+
     i = 0
     for page in pages:
-        i+=1
-        print("Pagina:", i)
+        # i+=1
+        # print("Pagina:", i)
 
         # print(page)
 
@@ -62,7 +63,13 @@ def assistente(pdf_path):
         message_response = client.beta.threads.messages.list(thread_id=thread.id)
         messages = message_response.data
 
-        latest_message = messages[0]
-        escrever_csv(latest_message.content[0].text.value, csv_path)
+        if messages:
+            latest_message = messages[0]
+            if latest_message:
+                if latest_message.content:
+                    escrever_csv(latest_message.content[0].text.value, csv_path)
+        else:
+            print("No messages found.")
+        
 
 

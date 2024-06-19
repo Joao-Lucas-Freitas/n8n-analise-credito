@@ -20,8 +20,8 @@ def leitor(nome):
         i = 1
         for row in reader:
             # Se a coluna 'Descrição' não contém 'Saldo do dia', escreva a linha no novo arquivo
-            if len(row) > 0:
-                if 'Saldo do dia' not in row[1] and 'Extrato' not in row[1]:
+            if len(row) == 3:
+                if 'Saldo' not in row[1] and 'Extrato' not in row[1] and 'SALDO' not in row[1]:
                     writer.writerow(row)
 
     df = pd.read_csv(output_file)

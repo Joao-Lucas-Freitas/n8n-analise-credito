@@ -3,8 +3,9 @@ from leitorCSV import leitor
 from limpar_csv import limpar
 
 def main():
-    #pdfs = ['extratos/Icaro Moreira Pazini.pdf', 'extratos/brooklyn role play.pdf', 'extratos/Maria Anthonia Gomes Mota.pdf']
-    pdfs = ['extratos/Anthonia.pdf']
+    #pdfs = ['extratos/Icaro.pdf', 'extratos/itau.pdf','extratos/maria Anthonia Gomes Mota.pdf',  'extratos/Icaro.pdf', 'extratos/itau.pdf', 'extratos/maria Anthonia Gomes Mota.pdf', 'extratos/Icaro.pdf', 'extratos/itau.pdf', 'extratos/maria Anthonia Gomes Mota.pdf']
+    #pdfs= ['extratos/nicolas.pdf']
+    pdfs = ['extratos/hoje.pdf']
     for pdf in pdfs:
         nome = pdf.replace('extratos/', '').replace('.pdf', '') 
         print(pdf, nome)
