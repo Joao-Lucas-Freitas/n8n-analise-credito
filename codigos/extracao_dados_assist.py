@@ -30,7 +30,6 @@ def assistente(pdf_path):
 
     pages = extract_pages_to_strings(pdf_path)
 
-
     i = 0
     for page in pages:
         # i+=1
