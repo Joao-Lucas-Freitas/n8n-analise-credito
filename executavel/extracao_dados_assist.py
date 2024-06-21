@@ -30,10 +30,6 @@ def assistente(pdf_path):
 
     pages = extract_pages_to_strings(pdf_path)
 
-    ID = "asst_ZMCtbv3H6BPAhVXWiR72lRPQ"
-
-    client = OpenAI(api_key="sk-proj-jBmp1LbQqg0pzfKSRgSiT3BlbkFJ2Xzj4L3BoLuEvpFXioSL")
-
     i = 0
     for page in pages:
         i+=1
