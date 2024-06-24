@@ -27,6 +27,7 @@ def main():
         time.sleep(5)
 
     print('\nResultados em resultados.txt na pasta do programa\n')
+    print('Lembre de abrir de fechar a aba de resultados e abrir de novo para atualizar o arquivo!')
     input('Digite enter para encerrar o programa')
     
 if __name__ == "__main__":
