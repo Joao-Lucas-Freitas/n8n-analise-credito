@@ -51,7 +51,7 @@ def leitor(nome):
         original_stdout = sys.stdout
         sys.stdout = file
 
-        print("\nNumero de entradas:", df_entradas['Valor'].count())
+        print("Numero de entradas:", df_entradas['Valor'].count())
         print("Entrou:", entrou)
         print("Media de entradas por mes considerando", meses, "meses:", entrou / meses)
 
@@ -66,6 +66,7 @@ def leitor(nome):
         print(transacoes_por_data)
 
         print(transacoes_por_data['Numero de Transacoes'].sum())
+        print()
 
         sys.stdout = original_stdout
 
