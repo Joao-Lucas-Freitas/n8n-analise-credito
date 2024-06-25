@@ -2,6 +2,8 @@
 .env
 
 # Ignorar diretórios e arquivos de cache do Python
+codigos/__pycache__/
+executavel/__pycache__/
 __pycache__/
 *.pyc
 
