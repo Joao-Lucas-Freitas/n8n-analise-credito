@@ -2,6 +2,8 @@ from openai import OpenAI
 import pdfplumber
 import time
 import csv
+from dotenv import load_dotenv
+import os
 
 def assistente(pdf_path):
 
@@ -30,7 +32,15 @@ def assistente(pdf_path):
 
     pages = extract_pages_to_strings(pdf_path)
 
-    i = 0
+    load_dotenv()
+
+    api_key = os.getenv('API_KEY')
+
+    ID = os.getenv('ASSIST_ID')
+
+    client = OpenAI(api_key=api_key)
+
+    #i = 0
     for page in pages:
         # i+=1
         # print("Pagina:", i)
