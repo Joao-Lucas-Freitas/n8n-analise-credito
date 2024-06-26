@@ -16,15 +16,10 @@ def main():
     
     for pdf in pdfs:
         nome = pdf.replace('.pdf', '')
-        time.sleep(1)
         print(pdf, nome)
-        time.sleep(3)
         assistente(pdf)
-        time.sleep(5)
         limpar()
-        time.sleep(5)
         leitor(nome)
-        time.sleep(5)
 
     print('\nResultados em resultados.txt na pasta do programa\n')
     print('Lembre de abrir de fechar a aba de resultados e abrir de novo para atualizar o arquivo!')

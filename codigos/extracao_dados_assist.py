@@ -40,12 +40,12 @@ def assistente(pdf_path):
 
     client = OpenAI(api_key=api_key)
 
-    #i = 0
+    i = 0
     for page in pages:
-        # i+=1
-        # print("Pagina:", i)
+        i+=1
+        print("Pagina:", i)
 
-        # print(page)
+        #print(page)
 
         thread = client.beta.threads.create(
             messages=[

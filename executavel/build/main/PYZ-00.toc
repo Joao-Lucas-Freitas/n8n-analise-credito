@@ -1828,6 +1828,26 @@
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\doctest.py',
    'PYMODULE'),
+  ('dotenv',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
   ('email',
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\email\\__init__.py',
@@ -2379,6 +2399,50 @@
   ('importlib.util',
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib_metadata',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata._adapters',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib_metadata._collections',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib_metadata._compat',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('importlib_metadata._functools',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib_metadata._itertools',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib_metadata._meta',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib_metadata._text',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib_metadata.compat',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata.compat.py311',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('importlib_metadata.compat.py39',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\importlib_metadata\\compat\\py39.py',
    'PYMODULE'),
   ('inspect',
    'C:\\Users\\Joao '
@@ -3000,6 +3064,258 @@
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\lzma.py',
    'PYMODULE'),
+  ('markdown_it',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it._compat',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\_compat.py',
+   'PYMODULE'),
+  ('markdown_it._punycode',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\_punycode.py',
+   'PYMODULE'),
+  ('markdown_it.common',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.common.entities',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\entities.py',
+   'PYMODULE'),
+  ('markdown_it.common.html_blocks',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\html_blocks.py',
+   'PYMODULE'),
+  ('markdown_it.common.html_re',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\html_re.py',
+   'PYMODULE'),
+  ('markdown_it.common.normalize_url',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\normalize_url.py',
+   'PYMODULE'),
+  ('markdown_it.common.utils',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\common\\utils.py',
+   'PYMODULE'),
+  ('markdown_it.helpers',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\helpers\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.helpers.parse_link_destination',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\helpers\\parse_link_destination.py',
+   'PYMODULE'),
+  ('markdown_it.helpers.parse_link_label',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\helpers\\parse_link_label.py',
+   'PYMODULE'),
+  ('markdown_it.helpers.parse_link_title',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\helpers\\parse_link_title.py',
+   'PYMODULE'),
+  ('markdown_it.main',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\main.py',
+   'PYMODULE'),
+  ('markdown_it.parser_block',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\parser_block.py',
+   'PYMODULE'),
+  ('markdown_it.parser_core',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\parser_core.py',
+   'PYMODULE'),
+  ('markdown_it.parser_inline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\parser_inline.py',
+   'PYMODULE'),
+  ('markdown_it.presets',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\presets\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.presets.commonmark',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\presets\\commonmark.py',
+   'PYMODULE'),
+  ('markdown_it.presets.default',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\presets\\default.py',
+   'PYMODULE'),
+  ('markdown_it.presets.zero',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\presets\\zero.py',
+   'PYMODULE'),
+  ('markdown_it.renderer',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\renderer.py',
+   'PYMODULE'),
+  ('markdown_it.ruler',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\ruler.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.blockquote',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\blockquote.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.code',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\code.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.fence',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\fence.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.heading',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\heading.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.hr',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\hr.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.html_block',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\html_block.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.lheading',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\lheading.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.list',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\list.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.paragraph',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\paragraph.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.reference',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\reference.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.state_block',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\state_block.py',
+   'PYMODULE'),
+  ('markdown_it.rules_block.table',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_block\\table.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.block',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\block.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.inline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\inline.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.linkify',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\linkify.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.normalize',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\normalize.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.replacements',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\replacements.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.smartquotes',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\smartquotes.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.state_core',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\state_core.py',
+   'PYMODULE'),
+  ('markdown_it.rules_core.text_join',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_core\\text_join.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\__init__.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.autolink',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\autolink.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.backticks',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\backticks.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.balance_pairs',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\balance_pairs.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.emphasis',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\emphasis.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.entity',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\entity.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.escape',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\escape.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.fragments_join',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\fragments_join.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.html_inline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\html_inline.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.image',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\image.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.link',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\link.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.linkify',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\linkify.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.newline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\newline.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.state_inline',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\state_inline.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.strikethrough',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\strikethrough.py',
+   'PYMODULE'),
+  ('markdown_it.rules_inline.text',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\rules_inline\\text.py',
+   'PYMODULE'),
+  ('markdown_it.token',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\token.py',
+   'PYMODULE'),
+  ('markdown_it.utils',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\markdown_it\\utils.py',
+   'PYMODULE'),
   ('matplotlib',
    'C:\\Users\\Joao Lucas\\Documents\\Projetos '
    'Python\\pythonProject\\venv\\Lib\\site-packages\\matplotlib\\__init__.py',
@@ -3387,6 +3703,30 @@
   ('matplotlib_inline.config',
    'C:\\Users\\Joao Lucas\\Documents\\Projetos '
    'Python\\pythonProject\\venv\\Lib\\site-packages\\matplotlib_inline\\config.py',
+   'PYMODULE'),
+  ('mdurl',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\__init__.py',
+   'PYMODULE'),
+  ('mdurl._decode',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\_decode.py',
+   'PYMODULE'),
+  ('mdurl._encode',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\_encode.py',
+   'PYMODULE'),
+  ('mdurl._format',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\_format.py',
+   'PYMODULE'),
+  ('mdurl._parse',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\_parse.py',
+   'PYMODULE'),
+  ('mdurl._url',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\mdurl\\_url.py',
    'PYMODULE'),
   ('mimetypes',
    'C:\\Users\\Joao '
@@ -7209,6 +7549,10 @@
    'C:\\Users\\Joao Lucas\\Documents\\Projetos '
    'Python\\pythonProject\\venv\\Lib\\site-packages\\psutil\\_pswindows.py',
    'PYMODULE'),
+  ('pty',
+   'C:\\Users\\Joao '
+   'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pty.py',
+   'PYMODULE'),
   ('pure_eval',
    'C:\\Users\\Joao Lucas\\Documents\\Projetos '
    'Python\\pythonProject\\venv\\Lib\\site-packages\\pure_eval\\__init__.py',
@@ -9081,6 +9425,294 @@
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\random.py',
    'PYMODULE'),
+  ('rich',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\__init__.py',
+   'PYMODULE'),
+  ('rich.__main__',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\__main__.py',
+   'PYMODULE'),
+  ('rich._cell_widths',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_cell_widths.py',
+   'PYMODULE'),
+  ('rich._emoji_codes',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_emoji_codes.py',
+   'PYMODULE'),
+  ('rich._emoji_replace',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_emoji_replace.py',
+   'PYMODULE'),
+  ('rich._export_format',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_export_format.py',
+   'PYMODULE'),
+  ('rich._extension',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_extension.py',
+   'PYMODULE'),
+  ('rich._fileno',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_fileno.py',
+   'PYMODULE'),
+  ('rich._inspect',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_inspect.py',
+   'PYMODULE'),
+  ('rich._log_render',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_log_render.py',
+   'PYMODULE'),
+  ('rich._loop',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_loop.py',
+   'PYMODULE'),
+  ('rich._null_file',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_null_file.py',
+   'PYMODULE'),
+  ('rich._palettes',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_palettes.py',
+   'PYMODULE'),
+  ('rich._pick',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_pick.py',
+   'PYMODULE'),
+  ('rich._ratio',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_ratio.py',
+   'PYMODULE'),
+  ('rich._spinners',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_spinners.py',
+   'PYMODULE'),
+  ('rich._stack',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_stack.py',
+   'PYMODULE'),
+  ('rich._timer',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_timer.py',
+   'PYMODULE'),
+  ('rich._win32_console',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_win32_console.py',
+   'PYMODULE'),
+  ('rich._windows',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_windows.py',
+   'PYMODULE'),
+  ('rich._windows_renderer',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_windows_renderer.py',
+   'PYMODULE'),
+  ('rich._wrap',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\_wrap.py',
+   'PYMODULE'),
+  ('rich.abc',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\abc.py',
+   'PYMODULE'),
+  ('rich.align',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\align.py',
+   'PYMODULE'),
+  ('rich.ansi',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\ansi.py',
+   'PYMODULE'),
+  ('rich.box',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\box.py',
+   'PYMODULE'),
+  ('rich.cells',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\cells.py',
+   'PYMODULE'),
+  ('rich.color',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\color.py',
+   'PYMODULE'),
+  ('rich.color_triplet',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\color_triplet.py',
+   'PYMODULE'),
+  ('rich.columns',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\columns.py',
+   'PYMODULE'),
+  ('rich.console',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\console.py',
+   'PYMODULE'),
+  ('rich.constrain',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\constrain.py',
+   'PYMODULE'),
+  ('rich.containers',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\containers.py',
+   'PYMODULE'),
+  ('rich.control',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\control.py',
+   'PYMODULE'),
+  ('rich.default_styles',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\default_styles.py',
+   'PYMODULE'),
+  ('rich.emoji',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\emoji.py',
+   'PYMODULE'),
+  ('rich.errors',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\errors.py',
+   'PYMODULE'),
+  ('rich.file_proxy',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\file_proxy.py',
+   'PYMODULE'),
+  ('rich.filesize',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\filesize.py',
+   'PYMODULE'),
+  ('rich.highlighter',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\highlighter.py',
+   'PYMODULE'),
+  ('rich.json',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\json.py',
+   'PYMODULE'),
+  ('rich.jupyter',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\jupyter.py',
+   'PYMODULE'),
+  ('rich.live',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\live.py',
+   'PYMODULE'),
+  ('rich.live_render',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\live_render.py',
+   'PYMODULE'),
+  ('rich.markdown',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\markdown.py',
+   'PYMODULE'),
+  ('rich.markup',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\markup.py',
+   'PYMODULE'),
+  ('rich.measure',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\measure.py',
+   'PYMODULE'),
+  ('rich.padding',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\padding.py',
+   'PYMODULE'),
+  ('rich.pager',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\pager.py',
+   'PYMODULE'),
+  ('rich.palette',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\palette.py',
+   'PYMODULE'),
+  ('rich.panel',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\panel.py',
+   'PYMODULE'),
+  ('rich.pretty',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\pretty.py',
+   'PYMODULE'),
+  ('rich.progress',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\progress.py',
+   'PYMODULE'),
+  ('rich.progress_bar',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\progress_bar.py',
+   'PYMODULE'),
+  ('rich.protocol',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\protocol.py',
+   'PYMODULE'),
+  ('rich.region',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\region.py',
+   'PYMODULE'),
+  ('rich.repr',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\repr.py',
+   'PYMODULE'),
+  ('rich.rule',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\rule.py',
+   'PYMODULE'),
+  ('rich.scope',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\scope.py',
+   'PYMODULE'),
+  ('rich.screen',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\screen.py',
+   'PYMODULE'),
+  ('rich.segment',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\segment.py',
+   'PYMODULE'),
+  ('rich.spinner',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\spinner.py',
+   'PYMODULE'),
+  ('rich.status',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\status.py',
+   'PYMODULE'),
+  ('rich.style',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\style.py',
+   'PYMODULE'),
+  ('rich.styled',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\styled.py',
+   'PYMODULE'),
+  ('rich.syntax',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\syntax.py',
+   'PYMODULE'),
+  ('rich.table',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\table.py',
+   'PYMODULE'),
+  ('rich.terminal_theme',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\terminal_theme.py',
+   'PYMODULE'),
+  ('rich.text',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\text.py',
+   'PYMODULE'),
+  ('rich.theme',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\theme.py',
+   'PYMODULE'),
+  ('rich.themes',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\themes.py',
+   'PYMODULE'),
+  ('rich.traceback',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\rich\\traceback.py',
+   'PYMODULE'),
   ('rlcompleter',
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\rlcompleter.py',
@@ -10364,6 +10996,22 @@
   ('zipimport',
    'C:\\Users\\Joao '
    'Lucas\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\zipimport.py',
+   'PYMODULE'),
+  ('zipp',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('zipp.compat',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('zipp.compat.py310',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('zipp.glob',
+   'C:\\Users\\Joao Lucas\\Documents\\Projetos '
+   'Python\\pythonProject\\venv\\Lib\\site-packages\\zipp\\glob.py',
    'PYMODULE'),
   ('zmq',
    'C:\\Users\\Joao Lucas\\Documents\\Projetos '

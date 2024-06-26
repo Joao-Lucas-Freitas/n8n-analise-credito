@@ -642,3 +642,67 @@ DOC.: Pix
 29/04/2024,PIX EMIT.OUTRA IF,-54.08
 29/04/2024,PIX EMIT.OUTRA IF,-10.70
 </Resposta>
+11. Exemplo 11:
+<Pergunta>
+Solicitado em: 24/05/2024 - 15h39
+ALESSANDRO MONTEIRO CARDOSO
+CPF/CNPJ: 671.006.432-87, Instituição: Banco Inter, Agência: 0001-9, Conta: 13150741-9,
+Tipo: Conta Corrente, Saldo atual: R$ 0,22
+Compra no débito Mp *panificadora Macap Bra -R$ 8,00
+Compra no débito Mp *panificadora Macap Bra -R$ 3,00
+3 de Março de 2024
+Pix enviado Manoel Do Carmo Das Merces -R$ 10,70
+Junior
+Compra no débito Pag*jaquelinede Macapa Bra -R$ 58,00
+Pix enviado Josielson Barros De Almeida -R$ 26,30
+Compra no débito Riachuelo 18 Macapa Bra -R$ 39,90
+Compra no débito Riachuelo 18 Macapa Bra -R$ 223,51
+Compra no débito Cea Amp 757 Ecpc Macapa -R$ 179,96
+Bra
+Compra no débito Four Games Sao Paulo Bra -R$ 50,00
+Compra no débito Mr Mix Macapa Bra -R$ 56,00
+Compra no débito Grua De Pelucias Garra -R$ 2,00
+Macapa Bra
+Compra no débito Grua De Pelucias Garra -R$ 2,00
+Macapa Bra
+Compra no débito Mp *minicarsshow Macap Bra -R$ 30,00
+Compra no débito Mp *minicarsshow Macap Bra -R$ 30,00
+Pix enviado Uber Do Brasil Tecnologia Ltda -R$ 7,46
+Compra no débito Mini Box Vitoria Macapa Bra -R$ 91,50
+Pix enviado Tifany Leticia De Melo Cardoso -R$ 30,00
+Pix recebido Luciana Vanzeler Da R$ 83,00
+Conceicao
+Pix enviado Francisco Dmenson Da Silva -R$ 158,00
+De Lima
+2 de Março de 2024
+</Pergunta>
+<Pensamento>
+1. Verifique se todas as transações possuem Data, Descrição e Valor.
+2. Formate a data no formato dia/mês/ano.
+3. Ajuste a descrição para remover vírgulas.
+4. Converta o valor para o padrão brasileiro, substituindo a vírgula decimal por ponto e removendo a unidade monetária.
+5. Ignore outras informações.
+5. Verifique se cada linha contém exatamente duas vírgulas.
+6. Retorne o texto formatado em CSV.
+</Pensamento>
+<Resposta>
+03/03/2024,Compra no débito Mp *panificadora Macap Bra,-8.00
+03/03/2024,Compra no débito Mp *panificadora Macap Bra,-3.00
+03/03/2024,Pix enviado Manoel Do Carmo Das Merces,-10.70
+03/03/2024,Compra no débito Pag*jaquelinede Macapa Bra,-58.00
+03/03/2024,Pix enviado Josielson Barros De Almeida,-26.30
+03/03/2024,Compra no débito Riachuelo 18 Macapa Bra,-39.90
+03/03/2024,Compra no débito Riachuelo 18 Macapa Bra,-223.51
+03/03/2024,Compra no débito Cea Amp 757 Ecpc Macapa,-179.96
+03/03/2024,Compra no débito Four Games Sao Paulo Bra,-50.00
+03/03/2024,Compra no débito Mr Mix Macapa Bra,-56.00
+03/03/2024,Compra no débito Grua De Pelucias Garra,-2.00
+03/03/2024,Compra no débito Grua De Pelucias Garra,-2.00
+03/03/2024,Compra no débito Mp *minicarsshow Macap Bra,-30.00
+03/03/2024,Compra no débito Mp *minicarsshow Macap Bra,-30.00
+03/03/2024,Pix enviado Uber Do Brasil Tecnologia Ltda,-7.46
+03/03/2024,Compra no débito Mini Box Vitoria Macapa Bra,-91.50
+03/03/2024,Pix enviado Tifany Leticia De Melo Cardoso,-30.00
+03/03/2024,Pix recebido Luciana Vanzeler Da Conceicao,83.00
+03/03/2024,Pix enviado Francisco Dmenson Da Silva De Lima,-158.00
+</Resposta>
