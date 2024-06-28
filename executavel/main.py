@@ -27,3 +27,20 @@ def main():
     
 if __name__ == "__main__":
     main()
+
+
+    texto = "15/04/2024,Pix enviado Raelly Martins Goncalves,-20.00/\n15/04/2024,Pix recebido Leonardo Vanzeler Cardoso,20.00/\n15/04/2024,Pix enviado Raelly Martins Goncalves,-20.00/\n15/04/2024,Pix recebido Leonardo Vanzeler Cardoso,20.00/\n15/04/2024,Pix enviado Raelly Martins Goncalves,-10.00/\n15/04/2024,Pix recebido Risomar Cardoso Da Silva,10.00/\n15/04/2024,Pix enviado Raelly Martins Goncalves,-10.00/\n15/04/2024,Pix recebido Alzeni Monteiro Cardoso,10.00/\n15/04/2024,Pix enviado Jamili Nascimento Salles,-1.90/\n15/04/2024,Pix enviado Raelly Martins Goncalves,-20.00/\n15/04/2024,Pix enviado Kiwify,-67.00/\n15/04/2024,Pix enviado Uber Do Brasil Tecnologia Ltda,-5.42/\n15/04/2024,Compra no débito Panificadora Panini Macapa Bra,-2.25"
+    valores = texto.split('\n')
+    valores
+
+    def extract_values(text):
+    # Use regex para encontrar todos os valores numéricos no texto
+    values = re.findall(r'[-]?\d+\.\d+', text)
+    # Converta os valores para float e some
+    total = sum(float(value) for value in values)
+    return total
+
+for item in _input.all():
+    # Supondo que o texto das transações está em item.json['transactionText']
+    transaction_text = item.json['text']
+    item.json['totalValue'] = extract_values(transaction_text)

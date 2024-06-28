@@ -7,7 +7,7 @@ def extract_text_from_pdf(pdf_path):
     text = ""
     for page in doc:
         text += page.get_text()
-    return text
+    return text 
 
 def preprocess_text(text):
     # Remover espaços extras e normalizar o texto
