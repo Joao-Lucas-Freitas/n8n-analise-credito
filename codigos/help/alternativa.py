@@ -1,59 +1,36 @@
 import fitz  # PyMuPDF
-import re
-import pandas as pd
 
-def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    return text 
-
-def preprocess_text(text):
-    # Remover espaços extras e normalizar o texto
-    text = re.sub(r'\s+', ' ', text)
-    return text
-
-def extract_transactions(text):
-    # Ajuste da regex para capturar valores monetários com sinais explícitos
-    transactions = re.findall(r'(\d{2}/\d{2}/\d{4}).*?([-+]?\d+,\d{2})', text)
-    return transactions
-
-def classify_transactions(transactions):
-    classified_transactions = []
-    for date, amount in transactions:
-        print(date, amount)  # Verificar o valor extraído
-        # Remover espaços e substituir vírgulas por pontos decimais
-        amount = amount.replace('.', '').replace(',', '.')
-        amount = float(amount)
-        if amount < 0:
-            classified_transactions.append((date, amount, 'saida'))
-        else:
-            classified_transactions.append((date, amount, 'entrada'))
-    return classified_transactions
-
-def aggregate_transactions(df):
-    total_entradas = df[df['Tipo'] == 'entrada']['Valor'].sum()
-    total_saidas = df[df['Tipo'] == 'saida']['Valor'].sum()
-    return total_entradas, total_saidas
-
-def main(pdf_path):
-    text = extract_text_from_pdf(pdf_path)
-    text = preprocess_text(text)
-    transactions = extract_transactions(text)
+def extract_page_as_image(input_pdf, page_number, output_image_path):
+    # Abre o arquivo PDF
+    pdf_document = fitz.open(input_pdf)
+    page = pdf_document.load_page(page_number - 1)  # As páginas são indexadas a partir de 0
     
-    # Filtrar transações para remover saldos diários e garantir que os valores estejam corretos
-    filtered_transactions = [t for t in transactions if not re.search(r'\bsaldo\b', t[0], re.IGNORECASE)]
-    classified_transactions = classify_transactions(filtered_transactions)
+    # Extrai a página como imagem
+    pix = page.get_pixmap()
+    pix.save(output_image_path)
+
+def create_pdf_with_image(image_path, output_pdf_path):
+    # Cria um novo PDF
+    new_pdf = fitz.open()
+    img_doc = fitz.open(image_path)
+    pdf_bytes = img_doc.convert_to_pdf()
+    img_pdf = fitz.open("pdf", pdf_bytes)
+    new_pdf.insert_pdf(img_pdf)
     
-    df = pd.DataFrame(classified_transactions, columns=['Data', 'Valor', 'Tipo'])
-    total_entradas, total_saidas = aggregate_transactions(df)
-    return df, total_entradas, total_saidas
+    # Salva o novo PDF
+    new_pdf.save(output_pdf_path)
+    new_pdf.close()
 
 # Exemplo de uso
-pdf_path = 'extratos/brooklyn.pdf'
-df, total_entradas, total_saidas = main(pdf_path)
-print("Transações extraídas:")
-print(df)
-print("\nTotal de Entradas:", total_entradas)
-print("Total de Saídas:", total_saidas)
+input_pdf = "extratos/1.pdf"
+output_image = "extratos/imagem.png"
+output_pdf = "extratos/1-correto.pdf"
+page_number = 3  # Página que você deseja extrair
+
+# Extrai a página 3 como imagem
+extract_page_as_image(input_pdf, page_number, output_image)
+
+# Cria um novo PDF com a imagem extraída
+create_pdf_with_image(output_image, output_pdf)
+
+print(f"Novo PDF com a página {page_number} salva em: {output_pdf}")
